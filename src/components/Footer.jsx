@@ -1,20 +1,30 @@
-import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faArrowRight, faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import useWhatsApp from '../hooks/useWhatsApp';
 
 function Footer() {
+    const { handleWhatsApp } = useWhatsApp();
+    const phoneNumber = '9562869016';
     return (
         <>
             <section>
-              
+
                 <section>
                     <div className="flex flex-col md:flex-row  bg-blue-100 ">
                         <div className="flex-1 p-4">
-                            <div className=" p-3 ">
+                            <div className=" p-3 md:px-32 ">
                                 <h2 className="text-4xl font-bold text-gray-800">Follow Us</h2>
 
                                 <div className="flex    mt-5">
+                                    <a href="" target="_blank" className="me-6" onClick={()=>handleWhatsApp(phoneNumber)}>
+                                        <div
+                                            className="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-green-600  text-green-600 hover:text-white">
+                                            <FontAwesomeIcon icon={faWhatsapp} className='fa-xl' />
+                                        </div>
+                                    </a>
+
                                     <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" className="me-6">
                                         <div
                                             className="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
@@ -50,7 +60,7 @@ function Footer() {
                                         1234567890
                                     </a>
 
-                                
+
 
                                     <br />
                                     <a href="mailto:@gmail.com"
@@ -78,23 +88,23 @@ function Footer() {
                             <div className="p-3">
                                 <h2 className="text-4xl font-bold text-gray-800 ">Quick Links</h2>
                                 <div className="mt-5">
-                                    <a href="#"
+                                    <a href="/"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
                                         <FontAwesomeIcon icon={faArrowRight} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2 ' /> Home
                                     </a> <br />
-                                    <a href="about.html"
+                                    <a href="/about"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
                                         <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />About
                                     </a> <br />
-                                    <a href="placements.html"
+                                    <a href="/"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
                                         <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />Placements
                                     </a><br />
-                                    <a href="gallery.html"
+                                    <a href="/"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
                                         <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />Gallery
                                     </a><br />
-                                    <a href="contact.html"
+                                    <a href="/contact"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
                                         <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />Contact
                                     </a><br />

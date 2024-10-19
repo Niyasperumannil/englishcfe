@@ -1,14 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import useWhatsApp from '../hooks/useWhatsApp';
 
 function Home() {
-    const handlewhatsapp = () => {
-        const phoneNumber = 9562869016
-        const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
-        window.open(whatsappURL, '_blank')
-
-    }
+    const { handleWhatsApp } = useWhatsApp();
+    const phoneNumber = '9562869016';
     return (
         <>
             <section className='bg-gradient-to-b from-blue-500 from-50% via-sky-500  to-sky-500 '>
@@ -18,7 +15,7 @@ function Home() {
                         <h1 className='text-blue-100 sm:text-5xl text-2xl sm:ms-6 ms-0 md:ms-6 text-center md:text-start'>Speak English Fluently </h1>
                         <h1 className='text-blue-100 sm:text-5xl text-2xl mt-5  ms-0 md:ms-20 text-center md:text-start'>With Confidence</h1>
                         <div className='flex justify-center md:justify-start'>
-                            <button class="bg-green-500 hover:bg-green-600 text-white font-normal py-3 px-5 rounded-full mt-10    md:ms-32 " onClick={handlewhatsapp}>
+                            <button class="bg-green-500 hover:bg-green-600 text-white font-normal py-3 px-5 rounded-full mt-10    md:ms-32 " onClick={()=>handleWhatsApp(phoneNumber)}>
                                 <FontAwesomeIcon icon={faWhatsapp} className='fa-2xl me-4' /> Contact on WhatsApp!
                             </button>
                         </div>

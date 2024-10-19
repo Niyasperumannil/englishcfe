@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <>
-      <header className="font-semibold flex items-center justify-between fixed bg-white w-full z-10  ">
+      <header className="font-semibold flex items-center justify-between fixed bg-white w-full z-10  " >
         <a href="">
           <img src="/logo1.png" alt="" className="w-20 h-20 mx-5 md:mx-36" />
         </a>

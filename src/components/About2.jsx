@@ -39,8 +39,8 @@ function About2() {
 
 
           </div>
-          <div data-aos="zoom-in-down" data-aos-duration="1000" >
-            <img src="/about.png" alt="" className='  h-full' />
+          <div data-aos="zoom-in-down" data-aos-duration="1000" className='' >
+            <img src="/about.png" alt="" className='  w-full h-full' />
           </div>
         </div>
 

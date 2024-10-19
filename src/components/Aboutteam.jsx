@@ -1,10 +1,13 @@
 import { faFacebook, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import React from 'react'
 import Aboutlast from './Aboutlast'
+import useWhatsApp from '../hooks/useWhatsApp';
+
 
 function Aboutteam() {
+    const { handleWhatsApp } = useWhatsApp();
+    const phoneNumber = '9562869016';
     return (
         <>
             <div className='md:px-24 px-5 bg-blue-300  '>
@@ -23,7 +26,7 @@ function Aboutteam() {
                         {/* social media links */}
                         <div className='flex justify-evenly mt-16 mb-5'>
                             {/* whatsapp */}
-                            <a href="" target="_blank" className="">
+                            <a href="" target="_blank" className="" onClick={()=>handleWhatsApp(phoneNumber)}>
                                 <div
                                     className="flex items-center justify-center h-10 w-10  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-green-600  text-green-600 hover:text-white">
                                     <FontAwesomeIcon icon={faWhatsapp} className='fa-xl' />
