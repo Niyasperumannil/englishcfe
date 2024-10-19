@@ -16,20 +16,58 @@ function App() {
       duration: 500,
       easing: 'ease-in-out',
     });
+  }, []);
 
-  }, [])
+  // // Disable right-click
+  // useEffect(() => {
+  //   const disableRightClick = (event) => {
+  //     event.preventDefault();
+  //   };
+  //   document.addEventListener('contextmenu', disableRightClick);
+
+  //   return () => {
+  //     document.removeEventListener('contextmenu', disableRightClick);
+  //   };
+  // }, []);
+
+  // // Block developer tools shortcuts
+  // useEffect(() => {
+  //   const blockDevToolsShortcuts = (event) => {
+  //     // Block F12
+  //     if (event.keyCode === 123) {
+  //       event.preventDefault();
+  //     }
+  //     // Block Ctrl+Shift+I (Inspect)
+  //     if (event.ctrlKey && event.shiftKey && event.keyCode === 73) {
+  //       event.preventDefault();
+  //     }
+  //     // Block Ctrl+Shift+J (Console)
+  //     if (event.ctrlKey && event.shiftKey && event.keyCode === 74) {
+  //       event.preventDefault();
+  //     }
+  //     // Block Ctrl+U (View Source)
+  //     if (event.ctrlKey && event.keyCode === 85) {
+  //       event.preventDefault();
+  //     }
+  //   };
+
+  //   window.addEventListener('keydown', blockDevToolsShortcuts);
+
+  //   return () => {
+  //     window.removeEventListener('keydown', blockDevToolsShortcuts);
+  //   };
+  // }, []);
+
   return (
     <>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
-
     </>
-
   );
 }
 

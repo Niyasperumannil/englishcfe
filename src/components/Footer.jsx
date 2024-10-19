@@ -9,7 +9,7 @@ function Footer() {
             <section>
               
                 <section>
-                    <div className="flex flex-col md:flex-row  bg-gray-200 ">
+                    <div className="flex flex-col md:flex-row  bg-blue-100 ">
                         <div className="flex-1 p-4">
                             <div className=" p-3 ">
                                 <h2 className="text-4xl font-bold text-gray-800">Follow Us</h2>
@@ -105,8 +105,8 @@ function Footer() {
                     </div>
                 </section>
             </section>
-            <footer>
-                <h1 className="text-xl text-center bg-slate-400 p-3">Copyright © 2024 by Apfel || All Rights reserved</h1>
+            <footer className=''>
+                <h1 className="text-xl text-center bg-slate-700 text-white p-5 ">Copyright © 2024 by Apfel || All Rights reserved</h1>
             </footer>
 
         </>
