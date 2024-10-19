@@ -51,7 +51,7 @@ function About2() {
           <div className='flex justify-between flex-wrap' data-aos='fade-up'>
             <div className='flex flex-col items-center text-white py-5'>
               <img src="/smile.png" alt="" className='w-28 h-28' />
-              <h1 className='text-2xl font-bold '>95%</h1>
+              <h1 className='text-2xl font-bold '>99%</h1>
               <h1 className='font-semibol text-lg'>customer satisication </h1>
             </div>
             <div className='flex flex-col items-center text-white py-5'>

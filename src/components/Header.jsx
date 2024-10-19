@@ -1,6 +1,7 @@
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 function Header() {
@@ -20,45 +21,56 @@ function Header() {
         <div id="menu-container ">
           <ul id="menu" className="hidden md:flex gap-20 text-xl px-10">
             <li className="relative group">
-              <a href="/">Home</a>
+              <NavLink to='/' className={({ isActive }) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'} >
+                Home
+              </NavLink>
               <span className="lihover"></span>
             </li>
             <li className="relative group">
-              <a href="/about">About</a>
+
+              <NavLink to='/about' className={({ isActive }) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'}>
+                About
+              </NavLink>
+              <span className="lihover"></span>
+            </li>
+
+            <li className="relative group">
+
+              <NavLink to='/gallery' className={({ isActive }) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'} >  Gallery</NavLink>
               <span className="lihover"></span>
             </li>
             <li className="relative group">
-              <a href="">Placements</a>
-              <span className="lihover"></span>
-            </li>
-            <li className="relative group">
-              <a href="">Gallery</a>
-              <span className="lihover"></span>
-            </li>
-            <li className="relative group">
-              <a href="/contact">Contact</a>
+
+              <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'}>   Contact</NavLink>
               <span className="lihover"></span>
             </li>
           </ul>
         </div>
 
         <button id="menu-toggle" className="md:hidden me-5" onClick={toggleMenu}>
-        <FontAwesomeIcon icon={faBars} />
+          <FontAwesomeIcon icon={faBars} className='fa-2x' />
         </button>
       </header>
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-20 left-0 md:hidden bg-gray-100 font-semibold w-52 h-full shadow-lg transition-transform duration-300 ease-in-out transform ${
-          isMenuOpen ? 'translate-x-0' : '-translate-x-full'
-        }`}
+        className={`fixed top-20 left-0 md:hidden bg-gray-100 font-semibold w-52 h-full shadow-lg transition-transform duration-300 z-10 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full '
+          }`}
       >
-        <nav className="flex flex-col p-4 space-y-2">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="">Placements</a>
-          <a href="">Gallery</a>
-          <a href="/contact">Contact</a>
+        <nav className="flex flex-col p-4 space-y-2 ">
+          <NavLink to='/' className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            Home
+          </NavLink>
+          <NavLink to='/about' className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            About
+          </NavLink>
+
+          <NavLink to='/gallery' className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            Gallery
+          </NavLink>
+          <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'} onClick={() => setIsMenuOpen(!isMenuOpen)} >
+            Contact
+          </NavLink>
         </nav>
       </div>
     </>

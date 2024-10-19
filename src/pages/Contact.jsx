@@ -109,7 +109,7 @@ console.log(formData)
                             {/* email form */}
                             <div >
                                 <h1 className='text-xl' >E-mail</h1>
-                                <input type="text" className='w-full h-10 bg-transparent outline-none' placeholder='Enter a valid Email Address' name='from_email' value={formData.from_email} required onChange={(e)=>handleChange(e)} />
+                                <input type="email" className='w-full h-10 bg-transparent outline-none' placeholder='Enter a valid Email Address' name='from_email' value={formData.from_email} required onChange={(e)=>handleChange(e)} />
                                 <div className='h-px w-100% bg-red-100'></div>
                             </div>
                             {/* name */}

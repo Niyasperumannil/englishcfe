@@ -40,14 +40,14 @@ function Aboutteam() {
                                 </div>
                             </a>
                             {/* linkedin */}
-                            <a href="" target="_blank" className="">
+                            <a href="https://www.linkedin.com/in/mohammed-basil-aa125927b" target="_blank" className="">
                                 <div
                                     className="flex items-center justify-center h-10 w-10  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-500  text-blue-500 hover:text-white">
                                     <FontAwesomeIcon icon={faLinkedin} className='fa-xl' />
                                 </div>
                             </a>
                             {/* instagram */}
-                            <a href="" target="_blank">
+                            <a href="https://www.instagram.com/b_as_il_1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
                                 <div
                                     className="flex items-center justify-center h-10 w-10 bg-white rounded-lg transition-colors duration-300 ease-in-out  text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
                                     <FontAwesomeIcon icon={faInstagram} className='fa-xl' />
