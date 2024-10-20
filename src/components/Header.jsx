@@ -41,6 +41,11 @@ function Header() {
             </li>
             <li className="relative group">
 
+              <NavLink to='/testimonials' className={({ isActive }) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'} >  Testimonials</NavLink>
+              <span className="lihover"></span>
+            </li>
+            <li className="relative group">
+
               <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'}>   Contact</NavLink>
               <span className="lihover"></span>
             </li>
@@ -67,6 +72,9 @@ function Header() {
 
           <NavLink to='/gallery' className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'} onClick={() => setIsMenuOpen(!isMenuOpen)}>
             Gallery
+          </NavLink>
+          <NavLink to='/testimonials' className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            Testimonials
           </NavLink>
           <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'} onClick={() => setIsMenuOpen(!isMenuOpen)} >
             Contact

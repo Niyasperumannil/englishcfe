@@ -105,17 +105,17 @@ console.log(formData)
                     {/* form */}
                     <div>
                         <form ref={form} onSubmit={sendEmail} >
-                        <div className='grid md:grid-cols-2 grid-cols-1 md:mt-8 mt-20' >
+                        <div className='grid md:grid-cols-2 grid-cols-1 md:mt-4 mt-20' >
                             {/* email form */}
                             <div >
                                 <h1 className='text-xl' >E-mail</h1>
-                                <input type="email" className='w-full h-10 bg-transparent outline-none' placeholder='Enter a valid Email Address' name='from_email' value={formData.from_email} required onChange={(e)=>handleChange(e)} />
+                                <input type="email" className='w-full h-10 bg-transparent outline-none active:none' placeholder='Enter a valid Email Address' name='from_email' value={formData.from_email} required onChange={(e)=>handleChange(e)} />
                                 <div className='h-px w-100% bg-red-100'></div>
                             </div>
                             {/* name */}
                             <div className='md:ms-10 mt-10 md:mt-0'>
                                 <h1 className='text-xl' >Name</h1>
-                                <input type="text" className='w-full h-10 bg-transparent outline-none' placeholder='Enter Your Name' name='from_name' value={formData.from_name} required onChange={(e)=>handleChange(e)} />
+                                <input type="text" className='w-full h-10 bg-transparent outline-none border-none focus:none' placeholder='Enter Your Name' name='from_name' value={formData.from_name} required onChange={(e)=>handleChange(e)} />
                                 <div className='h-px w-100% bg-red-100'></div>
                             </div>
 

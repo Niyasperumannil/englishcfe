@@ -6,7 +6,7 @@ import useWhatsApp from '../hooks/useWhatsApp';
 
 function Footer() {
     const { handleWhatsApp } = useWhatsApp();
-    const phoneNumber = '9562869016';
+    const phoneNumber = '919562869016';
     return (
         <>
             <section>
@@ -57,7 +57,7 @@ function Footer() {
                                         className="links text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
                                         {/*  */}
                                         <FontAwesomeIcon icon={faPhone} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />
-                                        1234567890
+                                        +91 9562869016
                                     </a>
 
 
@@ -90,23 +90,24 @@ function Footer() {
                                 <div className="mt-5">
                                     <a href="/"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
-                                        <FontAwesomeIcon icon={faArrowRight} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2 ' /> Home
+                                        <FontAwesomeIcon icon={faArrowRight} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2  ' /> Home
                                     </a> <br />
                                     <a href="/about"
-                                        className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
-                                        <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />About
+                                        className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500 ">
+                                        <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2  ' />About
                                     </a> <br />
-                                    <a href="/"
+                                    <a href="/gallery"
+                                        className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500 ">
+                                        <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2  ' />Gallery
+                                    </a> <br />
+                                    
+                                    <a href="/testimonials"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
-                                        <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />Placements
-                                    </a><br />
-                                    <a href="/"
-                                        className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
-                                        <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />Gallery
+                                        <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2  ' />Testimonials
                                     </a><br />
                                     <a href="/contact"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
-                                        <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2 ' />Contact
+                                        <FontAwesomeIcon icon={faArrowRight} className='me-5 transition-all duration-300 ease-in-out group-hover:pr-2  ' />Contact
                                     </a><br />
 
                                 </div>

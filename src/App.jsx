@@ -9,6 +9,9 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
+import Testimonials from './pages/Testimonials';
+
+
 
 function App() {
   // Initialize AOS
@@ -67,11 +70,12 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/gallery' element={<Gallery />} />
+        <Route path='/testimonials' element={<Testimonials/>}  />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />

@@ -1,9 +1,9 @@
-// src/hooks/useWhatsApp.js
 import { useCallback } from 'react';
 
 const useWhatsApp = () => {
     const handleWhatsApp = useCallback((phoneNumber) => {
-        const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+     
+        const whatsappURL = `https://wa.me/${phoneNumber}`;
         window.open(whatsappURL, '_blank');
     }, []);
 

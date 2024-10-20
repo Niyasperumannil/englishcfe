@@ -7,7 +7,7 @@ import useWhatsApp from '../hooks/useWhatsApp';
 
 function Aboutteam() {
     const { handleWhatsApp } = useWhatsApp();
-    const phoneNumber = '9562869016';
+    const phoneNumber = '919562869016';
     return (
         <>
             <div className='md:px-24 px-5 bg-blue-300  '>
