@@ -78,8 +78,8 @@ console.log(formData)
 
     return (
         <>
-            <div className='md:pt-28 md:px-24 pt-20 bg-cover  contactimg'>
-                <div className='grid md:grid-cols-2 grid-cols-1 md:p-14 p-10 text-white'>
+            <div className='md:pt-28 xl:px-24 pt-20 bg-cover  contactimg'>
+                <div className='grid md:grid-cols-2 grid-cols-1 xl:p-14 p-10 text-white'>
                     <div>
                         <h1 className='md:text-6xl text-5xl font-semibold text-white'  >Contact Us</h1>
                         {/* call us */}

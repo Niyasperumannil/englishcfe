@@ -10,9 +10,9 @@ function Aboutteam() {
     const phoneNumber = '919562869016';
     return (
         <>
-            <div className='md:px-24 px-5 bg-blue-300  '>
+            <div className='xl:px-24 px-5 bg-blue-300  '>
             <h1 className='text-4xl text-center text-blue-900 pt-10 font-bold'>Our Team</h1>
-                <div className='md:ps-14 pt-14  grid md:grid-cols-4 gap-5 py-20'>
+                <div className='xl:ps-14 pt-14  grid md:grid-cols-4 gap-5 py-20'>
                     {/* 1st card */}
                    
                     <div className='bg-blue-100 shadow-2xl rounded-lg hover:bg-blue-200 hover:shadow-red-100' data-aos='flip-left' >

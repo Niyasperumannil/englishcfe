@@ -12,9 +12,9 @@ function Footer() {
             <section>
 
                 <section>
-                    <div className="flex flex-col md:flex-row  bg-blue-100 ">
+                    <div className="flex flex-col lg:flex-row  bg-blue-100 ">
                         <div className="flex-1 p-4">
-                            <div className=" p-3 md:px-32 ">
+                            <div className=" p-3 xl:px-32 ">
                                 <h2 className="text-4xl font-bold text-gray-800">Follow Us</h2>
 
                                 <div className="flex    mt-5">
@@ -65,13 +65,13 @@ function Footer() {
                                     <br />
                                     <a href="mailto:@gmail.com"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500 ">
-                                        <FontAwesomeIcon icon={faEnvelope} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2 mt-3' /> apfelacademy@gmail.com
+                                        <FontAwesomeIcon icon={faEnvelope} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2 mt-3' /> apfel@gmail.com
                                     </a>
                                     <br />
 
                                     <a href="mailto:@gmail.com"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500 ">
-                                        <FontAwesomeIcon icon={faEnvelope} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2 mt-3' /> apfelacademy@gmail.com
+                                        <FontAwesomeIcon icon={faEnvelope} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2 mt-3' /> mblkd14@gmail.com
                                     </a><br />
                                     <a href="https://maps.app.goo.gl/HnfQTrHqXkMbupR67"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">

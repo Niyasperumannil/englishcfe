@@ -5,7 +5,7 @@ import Aboutteam from './Aboutteam'
 function About2() {
   return (
     <>
-      <div className='md:px-24 px-5 bg-blue-300 '>
+      <div className='xl:px-24 px-5 bg-blue-300 '>
         <div className='md:ps-14 pt-14  grid md:grid-cols-2 '>
 
           <div data-aos='zoom-in-down' data-aos-duration="1000" >
@@ -45,7 +45,7 @@ function About2() {
         </div>
 
       </div>
-      <div className='md:px-24 bg-gradient-to-tl from-cyan-500 via-blue-400 to-indigo-400 pb-20'>
+      <div className='xl:px-24 bg-gradient-to-tl from-cyan-500 via-blue-400 to-indigo-400 pb-20'>
         <div className='md:pt-14 md:ps-14 py-16 px-5'>
           <h1 className='text-center md:text-4xl text-2xl text-white mb-10 font-bold'>Why Should You Prefer Us</h1>
           <div className='flex justify-between flex-wrap' data-aos='fade-up'>

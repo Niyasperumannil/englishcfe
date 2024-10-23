@@ -1,6 +1,7 @@
 import React from 'react'
 import useWhatsApp from '../hooks/useWhatsApp';
 import Aboutlast from '../components/Aboutlast';
+import '../App.css';
 
 function Gallery() {
     const { handleWhatsApp } = useWhatsApp();
@@ -8,51 +9,57 @@ function Gallery() {
 
     return (
         <>
-            <div className='md:pt-28 pt-24 md:px-24 bg-blue-200'>
-
-                <div className='md:p-14 p-5 grid md:grid-cols-3 grid-cols-1 gap-8'>
-
-                    <div className='rounded-lg'>
-                        <img
-                            src="/cover.png"
-                            alt="Cover"
-                            className='w-full h-full  rounded-lg shadow-2xl  hover:scale-110 transition duration-300 ease-in-out'
-                        />
-                    </div>
-                    <div className='rounded-lg'>
-                        <img
-                            src="/cover.png"
-                            alt="Cover"
-                            className='w-full h-full  rounded-lg shadow-2xl  hover:scale-110 transition duration-300 ease-in-out'
-                        />
-                    </div>   <div className='rounded-lg'>
-                        <img
-                            src="/cover.png"
-                            alt="Cover"
-                            className='w-full h-full  rounded-lg shadow-2xl  hover:scale-110 transition duration-300 ease-in-out'
-                        />
-                    </div>   <div className='rounded-lg'>
-                        <img
-                            src="/cover.png"
-                            alt="Cover"
-                            className='w-full h-full  rounded-lg shadow-2xl  hover:scale-110 transition duration-300 ease-in-out'
-                        />
-                    </div>   <div className='rounded-lg'>
-                        <img
-                            src="/cover.png"
-                            alt="Cover"
-                            className='w-full h-full  rounded-lg shadow-2xl  hover:scale-110 transition duration-300 ease-in-out'
-                        />
-                    </div>   <div className='rounded-lg'>
-                        <img
-                            src="/cover.png"
-                            alt="Cover"
-                            className='w-full h-full  rounded-lg shadow-2xl  hover:scale-110 transition duration-300 ease-in-out'
-                        />
-                    </div>
-                </div>
+            <div className='md:pt-28 pt-24 xl:px-24 h-screen bg-cover1 bg-cover flex justify-center items-center  bg-fixed' >
+                <h1 className='text-8xl text-white font-bold'>Welcome to apfel gallery</h1>
+               
             </div>
-           <Aboutlast/>
+            <div className='grid md:grid-cols-2 h-50 '>
+                    <div className='   bg-cover2 bg-no-repeat bg-left  w-full bg-fixed '>
+                 
+                    </div>
+                    <div className='bg-blue-100 flex justify-center items-center '>
+                        <h1>lfdkhfjdhk</h1>
+
+                    </div>
+
+
+                </div>
+                <div className='grid md:grid-cols-2 h-50 '>
+                    
+                    <div className='bg-blue-100 flex justify-center items-center '>
+                        <h1>lfdkhfjdhk</h1>
+
+                    </div>
+                    <div className='bg-cover3 bg-right bg-cover bg-no-repeat w-full bg-fixed  '></div>
+
+                  
+
+
+                </div>
+                <div className='grid md:grid-cols-2 h-50 '>
+                    <div className='   bg-cover1 bg-cover bg-no-repeat bg-left  w-full '>
+                 
+                    </div>
+                    <div className='bg-blue-100 flex justify-center items-center  '>
+                        <h1>lfdkhfjdhk</h1>
+
+                    </div>
+
+
+                </div>
+                <div className='grid md:grid-cols-2 h-50 '>
+                    
+                    <div className='bg-blue-100 flex justify-center items-center '>
+                        <h1>lfdkhfjdhk</h1>
+
+                    </div>
+                    <div className='bg-cover3 bg-right bg-cover bg-no-repeat w-full  bg-fixed '></div>
+
+                  
+
+
+                </div>
+            <Aboutlast />
 
         </>
 

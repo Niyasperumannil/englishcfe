@@ -34,7 +34,7 @@ const Testimonials = () => {
                     initial={{ x: -100, opacity: 0 }}
                     transition={{ duration: 1 }}
                 >
-                    <h2 className="md:text-4xl text-3xl font-bold text-center  mb-8 text-white">What Our Clients Say</h2>
+                    <h2 className="md:text-4xl text-3xl font-bold text-center  mb-8 text-white">What Our Student Say</h2>
                 </motion.div>
 
 
