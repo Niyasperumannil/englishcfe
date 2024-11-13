@@ -17,10 +17,10 @@ function Aboutteam() {
                    
                     <div className='bg-blue-100 shadow-2xl rounded-lg hover:bg-blue-200 hover:shadow-red-100' data-aos='flip-left' >
                         <div className='flex justify-center items-center '>
-                            <img src="/basil.png" alt="" className='rounded-full w-28 h-28 mt-16 border-4 border-white' />
+                            <img src="/teacher.png" alt="" className='rounded-full w-28 h-28 mt-16 border-4 border-white' />
                         </div>
                         <div className='text-center'>
-                            <h1 className=' font-bold'>Mohammed Basil</h1>
+                            <h1 className=' font-bold'>Vinneth</h1>
                             <h1 className=''>Founder & CEO</h1>
                         </div>
                         {/* social media links */}
@@ -40,14 +40,14 @@ function Aboutteam() {
                                 </div>
                             </a>
                             {/* linkedin */}
-                            <a href="https://www.linkedin.com/in/mohammed-basil-aa125927b" target="_blank" className="">
+                            <a href="https://www.linkedin.com/company/englishcafeofficial/?originalSubdomain=in" target="_blank" className="">
                                 <div
                                     className="flex items-center justify-center h-10 w-10  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-500  text-blue-500 hover:text-white">
                                     <FontAwesomeIcon icon={faLinkedin} className='fa-xl' />
                                 </div>
                             </a>
                             {/* instagram */}
-                            <a href="https://www.instagram.com/b_as_il_1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                            <a href="https://www.instagram.com/englishcafe/#" target="_blank">
                                 <div
                                     className="flex items-center justify-center h-10 w-10 bg-white rounded-lg transition-colors duration-300 ease-in-out  text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
                                     <FontAwesomeIcon icon={faInstagram} className='fa-xl' />
@@ -67,7 +67,7 @@ function Aboutteam() {
                             <img src="/teacher.png" alt="" className='rounded-full w-28 h-28 mt-16 border-4 border-white' />
                         </div>
                         <div className='text-center'>
-                            <h1 className=' font-bold'>Mohammed Basil</h1>
+                            <h1 className=' font-bold'>Vinneth</h1>
                             <h1 className=''>Founder & CEO</h1>
                         </div>
                         {/* social media links */}
@@ -114,7 +114,7 @@ function Aboutteam() {
                             <img src="/teacher.png" alt="" className='rounded-full w-28 h-28 mt-16 border-4 border-white' />
                         </div>
                         <div className='text-center'>
-                            <h1 className=' font-bold'>Mohammed Basil</h1>
+                            <h1 className=' font-bold'>Vinneth</h1>
                             <h1 className=''>Founder & CEO</h1>
                         </div>
                         {/* social media links */}
@@ -161,7 +161,7 @@ function Aboutteam() {
                             <img src="/teacher.png" alt="" className='rounded-full w-28 h-28 mt-16 border-4 border-white' />
                         </div>
                         <div className='text-center'>
-                            <h1 className=' font-bold'>Mohammed Basil</h1>
+                            <h1 className=' font-bold'>Vinneth</h1>
                             <h1 className=''>Founder & CEO</h1>
                         </div>
                         {/* social media links */}
