@@ -25,7 +25,7 @@ function Footer() {
                                         </div>
                                     </a>
 
-                                    <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" className="me-6">
+                                    <a href="https://www.youtube.com/@ENGLISHCAFEOFFICIAL" target="_blank" className="me-6">
                                         <div
                                             className="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
                                             <FontAwesomeIcon icon={faYoutube} className='fa-xl' />
@@ -37,7 +37,7 @@ function Footer() {
                                             <FontAwesomeIcon icon={faFacebook} className='fa-xl' />
                                         </div>
                                     </a>
-                                    <a href="https://www.instagram.com/apfel_academy/" target="_blank">
+                                    <a href="https://www.instagram.com/englishcafe/#" target="_blank">
                                         <div
                                             className="flex items-center justify-center h-12 w-12 bg-white rounded-lg transition-colors duration-300 ease-in-out me-6 text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
                                             <FontAwesomeIcon icon={faInstagram} className='fa-xl' />
@@ -65,7 +65,7 @@ function Footer() {
                                     <br />
                                     <a href="mailto:@gmail.com"
                                         className="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500 ">
-                                        <FontAwesomeIcon icon={faEnvelope} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2 mt-3' /> apfel@gmail.com
+                                        <FontAwesomeIcon icon={faEnvelope} className='me-4 transition-all duration-300 ease-in-out group-hover:pr-2 mt-3' /> English cafe@gmail.com
                                     </a>
                                     <br />
 
@@ -117,7 +117,7 @@ function Footer() {
                 </section>
             </section>
             <footer className=''>
-                <h1 className="text-xl text-center bg-slate-700 text-white p-5 ">Copyright © 2024 by Apfel || All Rights reserved</h1>
+                <h1 className="text-xl text-center bg-slate-700 text-white p-5 ">Copyright © 2024 by English Cafe || All Rights reserved</h1>
             </footer>
 
         </>

@@ -31,7 +31,7 @@ function Home() {
             <section className='bg-gradient-to-b from-blue-500 from-50% via-sky-500  to-sky-500 '>
                 <div className='grid grid-cols-1 xl:grid-cols-2 xl:h-screen'>
                     <div className=' xl:pt-60 xl:ps-36  pt-28'>
-                        <h1 className='text-xl sm:text-6xl xl:text-4xl font-bold  mb-6 text-white text-center xl:text-start '><span className='font-normal text-blue-100 '>WELCOME TO</span> APFEL ACADEMY</h1>
+                        <h1 className='text-xl sm:text-6xl xl:text-4xl font-bold  mb-6 text-white text-center xl:text-start '><span className='font-normal text-blue-100 '>WELCOME TO</span> English Cafe</h1>
                         <h1 className='text-blue-100 sm:text-7xl xl:text-5xl text-2xl xl:ms-6 ms-0 text-center xl:text-start'>Speak English Fluently </h1>
                         <h1 className='text-blue-100  sm:text-7xl  xl:text-5xl text-2xl mt-5  ms-0 xl:ms-20 text-center xl:text-start'>With Confidence</h1>
                         <div className='flex justify-center xl:justify-start'>
@@ -47,7 +47,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='flex items-center justify-center mt-10'>
-                        <img src="/cover.png" className='xl:w-11/12 w-12/12' alt="" />
+                        <img src="./Vineeth4.png" className='xl:w-11/12 w-12/12' alt="" />
 
 
                     </div>

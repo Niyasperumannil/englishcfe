@@ -15,7 +15,7 @@ function Header() {
     <>
       <header className="font-semibold flex items-center justify-between fixed bg-white w-full z-10  " >
         <a href="/">
-          <img src="/logo1.png" alt="" className="w-20 h-20 mx-5 xl:mx-36" />
+          <img src="./title-shape.png" alt="" className="w-20 h-20 mx-5 xl:mx-36" />
         </a>
 
         <div id="menu-container ">

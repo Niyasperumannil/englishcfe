@@ -7,7 +7,7 @@ function About() {
 
             <div className='bg-gradient-to-tl from-cyan-500 via-blue-400 to-indigo-400  pt-28 grid grid-cols-1  xl:grid-cols-2 gap-2 xl:px-24 px-4 xl:h-screen ' id='about'>
                 <div className=' xl:p-14 p-2 text-center xl:text-start text-white'>
-                    <h1 className='text-4xl md:text-5xl font-bold font-serif pt-20'>Apfel Academy</h1>
+                    <h1 className='text-4xl md:text-5xl font-bold font-serif pt-20'>Study together</h1>
                     <h1 className='text-3xl font-medium mt-5'>Best Spoken English Institute in Kerala</h1>
                     <h1 className='text-xl mt-5 text-justify text-blue-100 font-medium italic'>Our <span className=' text-white'>highly experienced trainers</span> are dedicated to helping you <span className='text-white'>master the art of spoken English</span>, empowering you to<span className='text-white'> communicate effectively and confidently</span> in both casual and professional environments. Whether you're preparing for <span className='text-white'>career advancement, global interactions,</span> or simply aiming to <span className='text-white'>enhance your fluency</span>, our <span className='text-white'>tailored programs</span> provide the <span className='text-white'>comprehensive guidance</span> you need to succeed. <span className='text-white'>Join us</span> and unlock your <span className='text-white'>full potential</span> in English communication.</h1>
                 </div>

@@ -12,7 +12,7 @@ function About2() {
             <h1 className='md:text-3xl text-xl  font-bold text-center text-blue-700 md:text-justify'>Provide The Best Spoken English Training For Confidence And Fluency For You.</h1>
             <div className="max-h-80 scrollable-content overflow-y-scroll md:maxh-full pe-5">
               <h1 className='text-justify mb-5 text-lg mt-5'>
-                Providing advanced spoken English training to students, Apfel Academy is dedicated to enhancing communication skills for personal and professional success. Located in [Your Location], Apfel Academy focuses on delivering high-quality language education.
+                Providing advanced spoken English training to students, English cafe is dedicated to enhancing communication skills for personal and professional success. Located in [Your Location], Apfel Academy focuses on delivering high-quality language education.
               </h1>
               <h1 className='text-justify mb-5 text-lg'>
                 With a passionate team of educators, Apfel Academy offers the best training in spoken English, equipping students with the confidence and fluency needed for effective communication in various settings.

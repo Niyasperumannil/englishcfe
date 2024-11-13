@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'cover1':'linear-gradient(to bottom ,rgba(1, 16, 186, 0.411),rgba(1, 16, 186, 0.411)),url("/image1.jpg")',
+        'cover1':'linear-gradient(to bottom ,rgba(1, 16, 186, 0.411),rgba(1, 16, 186, 0.411)),url("/english.jpg")',
         'cover2':'linear-gradient(to bottom ,rgba(1, 16, 186, 0.411),rgba(1, 16, 186, 0.411)),url("/logo1.png")',
         'cover3':'linear-gradient(to bottom ,rgba(1, 16, 186, 0.411),rgba(1, 16, 186, 0.411)),url("/contact.jpg")',
       }

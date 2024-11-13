@@ -10,7 +10,7 @@ function Gallery() {
     return (
         <>
             <div className='md:pt-28 pt-24 xl:px-24 h-screen bg-cover1 bg-cover flex justify-center items-center  bg-fixed' >
-                <h1 className='text-8xl text-white font-bold'>Welcome to apfel gallery</h1>
+                <h1 className='text-8xl text-white font-bold'>Welcome to English cafe</h1>
                
             </div>
             <div className='grid md:grid-cols-2 h-50 '>

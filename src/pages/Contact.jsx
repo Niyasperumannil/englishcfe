@@ -100,7 +100,7 @@ console.log(formData)
                             <FontAwesomeIcon icon={faEnvelope} className='text-blue-600 me-5' />
                             <h1 className='text-white font-bold '>E-Mail</h1>
                         </div>
-                        <h1 className='mt-5 text-xl'>apfelacademy@gmail.com</h1>
+                        <h1 className='mt-5 text-xl'>Englishcafe@gmail.com</h1>
                     </div>
                     {/* form */}
                     <div>
